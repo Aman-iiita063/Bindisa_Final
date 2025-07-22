@@ -8,7 +8,7 @@ import {
   teamMembers,
   categoryNames,
   TeamMember,
-} from "../data/teamMembers.tsx";
+} from "../Data/teamMembers";
 import { useLanguage } from "../contexts/LanguageContext";
 
 const Team: React.FC = () => {
