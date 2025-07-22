@@ -79,6 +79,11 @@ app.use((req, res, next) => {
 //   res.json({ message: "Frontend-backend connection is successful!" });
 // });
 // Health check route
+
+app.get("/", (req, res) => {
+  res.send("Bindisa Agritech API is running...");
+});
+
 app.get("/health", (req, res) => {
   res.status(200).json({
     status: "success",
