@@ -78,8 +78,7 @@ tmp/
 temp/
 
 # MongoDB database files
-data/
-*.db
+
 
 # Redis dump file
 dump.rdb
