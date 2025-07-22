@@ -4,7 +4,7 @@ import { Award, Calendar, Users, Building } from "lucide-react";
 import Hero from "../components/Hero";
 import { Button } from "../components/ui/button";
 import { Card, CardContent } from "../components/ui/card";
-import { achievements, categoryNames } from "../Data/achievements";
+import { achievements, categoryNames } from "../data/achievements";
 
 const Achievements: React.FC = () => {
   const navigate = useNavigate();

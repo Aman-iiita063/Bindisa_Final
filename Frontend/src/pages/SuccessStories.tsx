@@ -14,7 +14,7 @@ import {
   testimonials,
   categoryNames,
   getTotalStats,
-} from "../Data/testimonials";
+} from "../data/testimonials";
 
 import { useLanguage } from "../contexts/LanguageContext";
 
