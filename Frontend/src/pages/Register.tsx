@@ -14,6 +14,7 @@ import {
 import { useAuth } from "../contexts/AuthContext";
 import { useLanguage } from "../contexts/LanguageContext";
 
+// edfeweffffefwef
 const Register: React.FC = () => {
   const navigate = useNavigate();
   const { register, isLoading } = useAuth();

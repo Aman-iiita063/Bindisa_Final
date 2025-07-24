@@ -25,6 +25,7 @@ import NotFound from "./pages/NotFound";
 //   .then((res) => res.json())
 //   .then((data) => console.log(data))
 //   .catch((err) => console.error("Error:", err));
+// console.log("VITE_BASE_URL from Vercel:", import.meta.env.VITE_BASE_URL);
 
 function App() {
   return (
