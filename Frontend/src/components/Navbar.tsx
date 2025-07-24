@@ -43,9 +43,9 @@ const Navbar: React.FC = () => {
           {/* Logo - Using actual Bindisa Agritech logo image */}
           <Link to="/" className="flex items-center">
             <img
-              src="/bindisa-agritech-logo.png"
+              src="/BINDISA-NEW.png"
               alt="Bindisa Agritech"
-              className="h-10 w-auto object-contain"
+              className="h-16 w-auto object-contain"
               onError={(e) => {
                 // Fallback to responsive image if main logo fails to load
                 const target = e.target as HTMLImageElement;
@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
             <div className="hidden flex items-center">
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets%2F740e0aee3e534c8a969cc741175154a3%2Fb42e486112e949778170c1a33850a089"
+                src="/BINDISA-NEW.png"
                 alt="Bindisa Agritech Logo"
                 className="w-full min-w-5 object-cover object-center overflow-hidden pb-6 mr-auto flex-grow"
                 style={{ aspectRatio: "1.42" }}

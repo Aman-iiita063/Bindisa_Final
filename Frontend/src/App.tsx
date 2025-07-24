@@ -12,7 +12,6 @@ import Team from "./pages/Team";
 import Technology from "./pages/Technology";
 import SuccessStories from "./pages/SuccessStories";
 import SoilAnalysis from "./pages/SoilAnalysis";
-import Chatbot from "./pages/Chatbot";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Contact from "./pages/Contact";
@@ -42,7 +41,6 @@ function App() {
                 <Route path="/technology" element={<Technology />} />
                 <Route path="/success-stories" element={<SuccessStories />} />
                 <Route path="/soil-analysis" element={<SoilAnalysis />} />
-                <Route path="/chatbot" element={<Chatbot />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/contact" element={<Contact />} />
