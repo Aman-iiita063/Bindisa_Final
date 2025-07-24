@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { createContext, useContext, useState, useEffect } from "react";
 
 interface User {
@@ -77,16 +78,17 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
   const register = async (userData: RegisterData): Promise<boolean> => {
     setIsLoading(true);
     try {
-      const response = await fetch(
+      const response = await axios.post(
         `${import.meta.env.VITE_BASE_URL}/api/auth/register`,
+        userData,
         {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(userData),
-        },
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
       );
-      const data = await response.json();
-      if (response.ok && data.success) {
+      const data = response.data;
+      if (data.success) {
         setUser(data.data.user);
         localStorage.setItem("bindisa-user", JSON.stringify(data.data.user));
         // Store the token for authenticated requests

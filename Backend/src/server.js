@@ -38,8 +38,7 @@ const server = createServer(app);
 // Socket.IO setup for real-time features
 const io = new Server(server, {
   cors: {
-    origin: process.env.ALLOWED_ORIGINS?.split(",") || "http://localhost:3000",
-    credentials: true,
+    origin: process.env.ALLOWED_ORIGIN || "http://localhost:3000"
   },
 });
 

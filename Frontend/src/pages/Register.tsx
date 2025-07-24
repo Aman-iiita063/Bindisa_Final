@@ -28,7 +28,6 @@ const Register: React.FC = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
-  const [acceptTerms, setAcceptTerms] = useState(false);
 
   const validateForm = () => {
     const newErrors: { [key: string]: string } = {};
@@ -63,10 +62,6 @@ const Register: React.FC = () => {
       newErrors.confirmPassword = "Passwords do not match";
     }
 
-    if (!acceptTerms) {
-      newErrors.terms = "Please accept the terms and conditions";
-    }
-
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
@@ -76,7 +71,7 @@ const Register: React.FC = () => {
 
     if (!validateForm()) return;
 
-    try {
+    try {      
       const success = await register({
         name: formData.name.trim(),
         email: formData.email,
