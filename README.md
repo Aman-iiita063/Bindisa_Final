@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Adobe Express-file.png" alt="Bindisa Agritech Logo" width="150"/>
+  <img src="Adobe Express - file.png" alt="Bindisa Agritech Logo" width="150"/>
   <h1>🌾 Bindisa Agritech - Frontend Platform 🌾</h1>
   <p>A modern, multilingual web platform designed to empower farmers in India with cutting-edge tools, real-time data, and AI-driven insights.</p>
 </div>
