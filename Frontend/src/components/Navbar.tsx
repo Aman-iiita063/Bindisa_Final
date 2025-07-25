@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
     { path: "/technology", label: t("nav.technology") },
     { path: "/success-stories", label: t("nav.success") },
     { path: "/soil-analysis", label: t("nav.soil") },
-    { path: "/chatbot", label: t("nav.chatbot") },
+    // { path: "/chatbot", label: t("nav.chatbot") },
     { path: "/contact", label: t("nav.contact") },
   ];
 

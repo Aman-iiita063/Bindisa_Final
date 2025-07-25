@@ -94,12 +94,12 @@ const NotFound: React.FC = () => {
                   Soil Analysis
                 </Link>
                 <span className="text-xs text-gray-300">•</span>
-                <Link
+                {/* <Link
                   to="/chatbot"
                   className="text-xs text-agri-primary hover:text-agri-primary-dark"
                 >
                   AI Assistant
-                </Link>
+                </Link> */}
                 <span className="text-xs text-gray-300">•</span>
                 <Link
                   to="/success-stories"

@@ -376,14 +376,14 @@ const SuccessStories: React.FC = () => {
             >
               Get Started Today
             </Button>
-            <Button
+            {/* <Button
               onClick={() => navigate("/chatbot")}
               size="lg"
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-agri-primary"
             >
               Ask Our AI Assistant
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>

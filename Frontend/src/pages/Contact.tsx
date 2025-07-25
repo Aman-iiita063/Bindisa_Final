@@ -426,7 +426,7 @@ const Contact: React.FC = () => {
             sustainability.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
+            {/* <Button
               onClick={() => navigate("/chatbot")}
               size="lg"
               variant="secondary"
@@ -434,7 +434,7 @@ const Contact: React.FC = () => {
             >
               <MessageSquare className="w-4 h-4 mr-2" />
               Chat with AI Assistant
-            </Button>
+            </Button> */}
             <Button
               onClick={() => navigate("/soil-analysis")}
               size="lg"

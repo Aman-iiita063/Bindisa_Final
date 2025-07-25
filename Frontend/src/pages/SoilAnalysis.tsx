@@ -3362,14 +3362,14 @@ const SoilAnalysis: React.FC = () => {
             >
               Contact Our Experts <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
-            <Button
+            {/* <Button
               onClick={() => navigate("/chatbot")}
               size="lg"
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-agri-primary"
             >
               Ask Our AI Assistant <ArrowRight className="w-4 h-4 ml-2" />
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>

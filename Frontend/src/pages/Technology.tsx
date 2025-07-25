@@ -186,10 +186,10 @@ const Technology: React.FC = () => {
           text: "Try Our Soil Analysis",
           onClick: () => navigate("/soil-analysis"),
         }}
-        secondaryAction={{
-          text: "Chat with Our AI",
-          onClick: () => navigate("/chatbot"),
-        }}
+        // secondaryAction={{
+        //   text: "Chat with Our AI",
+        //   onClick: () => navigate("/chatbot"),
+        // }}
       />
 
       {/* Core Technologies */}
@@ -489,14 +489,14 @@ const Technology: React.FC = () => {
             >
               Analyze Your Soil <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
-            <Button
+            {/* <Button
               onClick={() => navigate("/chatbot")}
               size="lg"
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-agri-primary"
             >
               Chat with AI Assistant <ArrowRight className="w-4 h-4 ml-2" />
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>

@@ -90,12 +90,12 @@ const Home: React.FC = () => {
         "Get detailed insights about your soil health, pH levels, nutrient content, and crop recommendations.",
       action: () => navigate("/soil-analysis"),
     },
-    {
-      title: "Multilingual Chatbot",
-      description:
-        "Get farming advice in Hindi, Marathi, or English from our AI-powered agricultural assistant.",
-      action: () => navigate("/chatbot"),
-    },
+    // {
+    //   title: "Multilingual Chatbot",
+    //   description:
+    //     "Get farming advice in Hindi, Marathi, or English from our AI-powered agricultural assistant.",
+    //   action: () => navigate("/chatbot"),
+    // },
     {
       title: "Success Stories",
       description:
@@ -418,14 +418,14 @@ const Home: React.FC = () => {
             >
               Get Started Today
             </Button>
-            <Button
+            {/* <Button
               onClick={() => navigate("/chatbot")}
               size="lg"
               variant="outline"
               className="border-white bg-primary text-white hover:bg-white hover:text-agri-primary"
             >
               Try Our Chatbot
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>

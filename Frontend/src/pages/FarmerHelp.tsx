@@ -206,7 +206,7 @@ const FarmerHelp: React.FC = () => {
       <section className="py-16 bg-white border-b">
         <div className="container-max section-padding">
           <div className="grid md:grid-cols-3 gap-6 text-center">
-            <Card
+            {/* <Card
               className="card-agri cursor-pointer hover:scale-105 transition-transform duration-300"
               onClick={() => navigate("/chatbot")}
             >
@@ -219,7 +219,7 @@ const FarmerHelp: React.FC = () => {
                   Get instant answers in Hindi, Marathi, or English
                 </p>
               </CardContent>
-            </Card>
+            </Card> */}
 
             <Card
               className="card-agri cursor-pointer hover:scale-105 transition-transform duration-300"
@@ -585,14 +585,14 @@ const FarmerHelp: React.FC = () => {
             >
               Contact Support Team
             </Button>
-            <Button
+            {/* <Button
               onClick={() => navigate("/chatbot")}
               size="lg"
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-agri-primary"
             >
               Chat with AI Assistant
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>
