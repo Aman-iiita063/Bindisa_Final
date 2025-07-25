@@ -84,10 +84,10 @@ Make sure you have these tools installed:
 
 ### **2. Clone the Repository**
 
-
+```bash
 git clone [https://github.com/your-username/bindisa-agritech-website.git](https://github.com/your-username/bindisa-agritech-website.git)
 cd bindisa-agritech-website
-
+```
 ---
 
 
