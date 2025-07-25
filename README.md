@@ -32,11 +32,6 @@
 
 This project is the complete frontend for the **Bindisa Agritech** platform. It provides a comprehensive suite of tools for the modern farmer, including multilingual support, soil analysis, and an AI-powered chatbot for instant assistance. Built with a modern tech stack like React and TypeScript, it offers a fast, responsive, and intuitive user experience across all devices.
 
-### ✨ **Project Showcase**
-
-*(You can add a high-quality screenshot or GIF of your application here)*
-
-![Bindisa Agritech Showcase](https://your-link-to-image-or-gif.com/showcase.png)
 
 ---
 
@@ -56,7 +51,7 @@ This project is the complete frontend for the **Bindisa Agritech** platform. It 
 
 You can view the live deployed version and test the application using the demo credentials below.
 
-* **Live URL**: **[your-deployment-link.vercel.app](https://your-deployment-link.vercel.app)**
+* **Live URL**: **[your-deployment-link.vercel.app](https://bindisa-final.vercel.app/)**
 * **Demo Email**: `demo@bindisaagritech.com`
 * **Demo Password**: `demo123`
 
@@ -89,11 +84,13 @@ Make sure you have these tools installed:
 
 ### **2. Clone the Repository**
 
-```bash
+
 git clone [https://github.com/your-username/bindisa-agritech-website.git](https://github.com/your-username/bindisa-agritech-website.git)
 cd bindisa-agritech-website
 
 ---
+
+
 
 **Happy Coding !!! 🚀**
 
